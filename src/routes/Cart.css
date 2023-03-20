@@ -1,0 +1,36 @@
+.cart_wrap{    
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    text-align: left;
+}
+
+thead{
+   font-size: 20px; 
+}
+
+td:nth-of-type(1){
+    width: 150px;
+    height: 150px;
+    
+}
+
+td{
+    line-height: 100px;
+}
+
+.image{
+    width: 100%;
+}
+
+.count{
+    display: flex;
+    justify-content: space-around;
+}
+
+.amount{
+    cursor: pointer;
+}
+
+u{
+    cursor: pointer;
+}

@@ -1,0 +1,371 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.App{
+  font-size: 13px; 
+  text-align: center;
+}
+
+.navbar{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo{
+  width: 140px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.slider{
+  width: 100%;
+  height: 57rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.slider_caption{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 7px;
+}
+
+.shop{
+  border-radius: 0;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  margin: 3% 0 5% 0;
+}
+
+.shop:hover{
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: rgba(0,0,0,0);
+}
+
+.introduce{
+  width: 100%;
+  height: 326px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.introduce .container{
+  display: flex;
+  align-items: center;
+}
+
+.enamelware{
+  /* width: 50%; */
+  height: auto;
+  padding: 50px 0 20px 0;
+}
+
+.enamelware h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.692rem;
+  letter-spacing: 7px;
+}
+
+.enamelware p{
+  margin: 20px 0;
+}
+
+.madein{
+  /* width: 50%; */
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.turkey{
+  width: 100%;
+}
+
+.turkey img{
+  width: 100%;
+}
+
+.sort{
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 0.5% 4% 0.5%;
+  letter-spacing: 3px;
+}
+
+.c1{
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
+.collectionBtn{
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  margin-top: 2%;
+}
+
+.collectionBtn:hover{
+  background-color: #fff;
+  color: #333;
+}
+
+.collection{
+  width: 98%;
+  height: auto;
+  margin: 5% auto;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+}
+
+.newMarble,.islandBreeze,.kidsFamily,.candles{
+  width: 96%;
+  height: 40vw;
+  margin: 2%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-size: 100% 120%;
+  background-position: center;
+  cursor: pointer;
+  transition: all 1s linear;
+}
+
+.newMarble{
+  background-image: url(../public/img/newmarble.jpg); 
+}
+
+.islandBreeze{
+  background-image: url(../public/img/islandbreeze.jpg); 
+}
+
+.kidsFamily{
+  background-image: url(../public/img/kidsfamily.jpg);
+}
+
+.candles{
+  background-image: url(../public/img/candle.jpg);
+}
+
+.newMarble:hover,.islandBreeze:hover,.kidsFamily:hover,.candles:hover{
+  background-size: 120% 150%;
+}
+
+.type{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 10%;
+}
+
+.type h2{
+  font-size: 27px;
+  color: #fff;
+  letter-spacing: 7px;
+}
+
+
+.now{
+  border-radius: 0;
+  background-color: #fff;
+  color: #333;
+  border: #fff;
+  margin-top: 5%;
+  letter-spacing: 2px;
+}
+
+.now:hover{
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: rgba(0,0,0,0);
+}
+
+.product_img,.best_img{
+  width: 100%;
+  height: 18vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.product_img img,.best_img img{
+  width: 80%;
+}
+
+.nav-link:hover img{
+  height: 18vw;
+}
+
+.more{
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  margin-top: 2%;
+}
+
+.footer_top{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin: 75px 0;
+}
+
+.inner{
+  width: 22%;
+  color: #666;
+}
+
+.inner h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+.inner ul{
+  padding-left: 0;
+}
+
+.inner li{
+  list-style: none;
+  margin-top: 12px;
+}
+
+.inner li a{
+  text-decoration: none;
+  color: #666;
+}
+
+.inner li a:hover{
+  color: #000;
+}
+
+input{
+  width: 100%;
+  height: 44px;
+  padding: 3%;
+}
+
+.subscribe{
+  background-color: #000;
+  color: #fff;
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-top: 7%;
+}
+
+.subscribe:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.icon{
+  margin-right: 11.5%;
+  cursor: pointer;
+}
+
+.icon:hover{
+  color: #333;
+}
+
+.footer_bottom{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  padding: 45px 0;
+}
+
+.footer_bottom a{
+  color: #000;
+  text-decoration: none;
+}
+
+.footer_bottom a:hover{
+  color: #666;
+}
+
+@media (max-width:767px){
+
+  .slider{
+    height: 16.462rem;
+  }
+  
+  .introduce{
+    text-align: center;
+    height: 342px;
+  }
+
+  .introduce .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .enamelware{
+    padding: 50px 0 20px 0;
+  }
+
+  .product_img,.best_img{
+    width: 100%;
+    height: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .product_img img,.best_img img{
+    width: 80%;
+    /* height: 70vw; */
+  }
+  
+  .nav-link:hover img{
+    height: 75vw;
+  }
+
+  .newMarble,.islandBreeze,.kidsFamily,.candles{
+    height: 80vw;
+  }
+
+  .footer_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+  }
+
+  .inner{
+    width: 96%;
+    margin-bottom: 40px;
+  }
+
+  .inner h2{
+    margin-bottom: 22px;
+  }
+
+  .footer_bottom{
+    padding-bottom: 45px;
+    text-align: center;
+  }
+
+}
+
+@media (min-width:768px) and (max-width:1399px) {
+  .footer_top{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .inner{
+    width: 46%;
+    margin: 2%;
+  }
+}
+
+@media (min-width:768px) and (max-width:1580px) {
+    .slider{
+      height: 36.538rem;
+    }
+}
